@@ -31,9 +31,11 @@ pip install -r requirements.txt
 ## Project Structure
 
 - `api.py` - Flask API implementation
+- `api_numbers.csv` - Initial CSV data containing list of APIs to scrape
 - `polygon_results.csv` - Sample polygon search results
 - `requirements.txt` - Project dependencies
 - `scraper.py` - Web scraping and database loading logic
+- `well.py` - SQLModel `Well` class to manage well-related attributes and database interactions
 - `well_data.db` - SQLite database containing scraped data
 
 ## Usage
